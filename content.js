@@ -3,8 +3,5 @@
  */
 const metaLink = document.createElement("link");
 metaLink.setAttribute("rel", "manifest");
-metaLink.setAttribute(
-  "href",
-  "https://raw.githubusercontent.com/gxanshu/slack-pwa/main/pwa/pwa-manifest.json",
-);
-document.head.appendChild(metaLink);
+metaLink.setAttribute("href", chrome.runtime.getURL("pwa/pwa-manifest.json"));
+document.head.prepend(metaLink);
