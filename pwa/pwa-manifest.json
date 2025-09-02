@@ -1,5 +1,5 @@
 {
-    "name": "Messenger",
+    "name": "Facebook Messenger",
     "short_name": "Messenger",
     "start_url": "https://www.messenger.com",
     "display": "standalone",
